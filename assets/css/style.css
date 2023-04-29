@@ -1,0 +1,59 @@
+body {
+    color: rgb(255, 255, 255);
+    height: auto;
+    width: auto;
+    background: linear-gradient(to top left, #000066 0%, #33cccc 100%);
+    background-size: contain;
+    align-items: center;
+    align-content: center;
+}
+
+.tarjeta {
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    align-items: end;
+}
+
+footer {
+    background-image: url("../img/digimonfooter.png");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    height: 100vh;
+    width: 100%;
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.social-link i:not(:hover) {
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #121733;
+}
+
+tr:nth-child(even) {
+    background-color: #0c2e3d;
+}
+
+img {
+    max-width: 150px;
+}
