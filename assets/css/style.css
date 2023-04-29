@@ -2,7 +2,8 @@ body {
     color: rgb(255, 255, 255);
     height: auto;
     width: auto;
-    background: linear-gradient(to top left, #000066 0%, #33cccc 100%);
+    /* background: linear-gradient(to top left, #000066 0%, #33cccc 100%); */
+    background: linear-gradient(to top left, #02025e 0%, #33cccc 100%);
     background-size: contain;
     align-items: center;
     align-content: center;
